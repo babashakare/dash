@@ -23,10 +23,10 @@
             // نمایش داده‌ها در بخش‌های جداگانه
             for (let i = 0; i < Math.min(dataArray.length, 5); i++) {
                 // نمایش داده‌ها در بخش‌های خاص
-                document.getElementById(`time${i + 1}`).innerText = dataArray[i][0]; // ساعت
-                document.getElementById(`user${i + 1}`).innerText = dataArray[i][1]; // نام کاربری
-                document.getElementById(`number${i + 1}`).innerText = dataArray[i][2]; // بج نامبر
-                document.getElementById(`pay${i + 1}`).innerText = dataArray[i][3]; // میزان پرداخت
+                document.getElementById(`time${i + 2}`).innerText = dataArray[i][0]; // ساعت
+                document.getElementById(`user${i + 2}`).innerText = dataArray[i][1]; // نام کاربری
+                document.getElementById(`number${i + 2}`).innerText = dataArray[i][2]; // بج نامبر
+                document.getElementById(`pay${i + 2}`).innerText = dataArray[i][3]; // میزان پرداخت
             }
         }
 
